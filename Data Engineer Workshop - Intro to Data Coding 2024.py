@@ -12,7 +12,7 @@ query = text("""SELECT * FROM trans_table_full""")
 df_order_txn = pd.read_sql(query, con=engine, parse_dates=['Order_Date', 'Ship_Date'])
 
 # TRANSFORM
-# Change column name to lowercase and underscore (if necessary to separate word)
+# Rename column name to lowercase and underscore (if necessary to separate word)
 df_order_txn.columns = [c.lower().replace("-", "_") for c in df_order_txn.columns]
 
 # Change date column (order_date, ship_date) type string to datetime
