@@ -25,7 +25,7 @@ df_order_txn["ship_days"] = (df_order_txn['ship_date'] - df_order_txn['order_dat
 # Convert datetime to end of month
 df_order_txn['data_date'] = df_order_txn['order_date'] + MonthEnd(0)
 
-# Sales aggregation dataframe
+# Sales Aggregation
 df_sales = df_order_txn.groupby('data_date').agg({
     'sales' : ['max', 'sum'],
     'quantity' : ['mean', 'sum'],
@@ -35,7 +35,7 @@ df_sales = df_order_txn.groupby('data_date').agg({
 df_sales.columns = [f'{agg}_{col}' for col, agg in df_sales.columns] # Rename column name
 df_sales = df_sales.reset_index() # Set index value
 
-# Sales by Region 
+# Sales by Region Aggregation
 df_sales_by_region = df_order_txn.groupby(['data_date', 'region']).agg({
     'sales' : ['max', 'sum'],
     'quantity' : ['mean', 'sum'],
@@ -45,7 +45,7 @@ df_sales_by_region = df_order_txn.groupby(['data_date', 'region']).agg({
 df_sales_by_region.columns = [f'{agg}_{col}' for col, agg in df_sales_by_region.columns] # Rename column name
 df_sales_by_region = df_sales_by_region.reset_index() # Set index value
 
-# Sales by Category aggregation dataframe
+# Sales by Category Aggregation
 df_sales_by_category = df_order_txn.groupby(['data_date', 'category']).agg({
     'sales' : ['max', 'sum'],
     'quantity' : ['mean', 'sum'],
