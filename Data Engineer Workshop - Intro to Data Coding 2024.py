@@ -73,4 +73,4 @@ df_sales_by_region.to_csv('sales_by_region.csv', index=False)
 
 # Sales by Category
 df_sales_by_category.to_sql('sales_by_category', index=False, if_exists='replace', con=engine)
-df_sales_by_category.to_csv('df_sales_by_category.csv', index=False)
+df_sales_by_category.to_csv('sales_by_category.csv', index=False)
