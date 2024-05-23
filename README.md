@@ -57,6 +57,7 @@ _**Python libraries :**_ _Pandas, SQLAlchemy_\
 Python script และ process ทั้งหมด [Data Engineer Workshop - Intro to Data Coding 2024.py](https://github.com/suben-mk/Python-Workshop-DataTH/blob/main/Data%20Engineer%20Workshop%20-%20Intro%20to%20Data%20Coding%202024.py)
 
 ## Output
+ผลลัพธ์ Dataset มาตาม Requirement
 * Database [superstore.db](https://github.com/suben-mk/Python-Workshop-DataTH/blob/main/Output/superstore.db)
 * CSV
   * Order Transection [order_txn.csv](https://github.com/suben-mk/Python-Workshop-DataTH/blob/main/Output/order_txn.csv)
