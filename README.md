@@ -1,5 +1,5 @@
 # Data Engineer Workshop - Intro to Data Coding 2024 (DataTH)
-**Data Engineer Workshop** เป็น Workshop สุดท้ายของคอร์ส Intro to Data Coding 2024 ในส่วนของ Python ซึ่งจะโฟกัสการทำ ETL (Extrac, Transform, Load) เบื้องต้น ของ Data engineer จะลองสถาณการณ์การทำงานโดยได้รับ Requirement จาก Business Analyst
+**Data Engineer Workshop** เป็น Workshop สุดท้ายของคอร์ส Intro to Data Coding 2024 ในส่วนของ Python ซึ่งจะโฟกัสการทำ ETL (Extract, Transform, Load) เบื้องต้น ของ Data engineer จะลองสถาณการณ์การทำงานโดยได้รับ Requirement จาก Business Analyst
 
 ![image](https://github.com/suben-mk/Python-Workshop-DataTH/assets/89971741/0fd398bf-5778-4ab1-b4cb-b179229191ac)
 _Requirement จาก Business Analyst_
