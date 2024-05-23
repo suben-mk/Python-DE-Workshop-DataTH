@@ -53,4 +53,14 @@ ship_days |	ค่ามากที่สุด |	max_ship_days |	float |
 ship_days |	ค่าน้อยที่สุด |	min_ship_days |	float |
 
 ## Workflow
-_**Python libraries :**_ Pandas, SQLAlchemy
+_**Python libraries :**_ _Pandas, SQLAlchemy_\
+Python script และ process ทั้งหมด [Data Engineer Workshop - Intro to Data Coding 2024.py](https://github.com/suben-mk/Python-Workshop-DataTH/blob/main/Data%20Engineer%20Workshop%20-%20Intro%20to%20Data%20Coding%202024.py)
+
+## Output
+* Database [superstore.db](https://github.com/suben-mk/Python-Workshop-DataTH/blob/main/Output/superstore.db)
+* CSV
+  * Order Transection [order_txn.csv](https://github.com/suben-mk/Python-Workshop-DataTH/blob/main/Output/order_txn.csv)
+  * Sales [sales.csv](https://github.com/suben-mk/Python-Workshop-DataTH/blob/main/Output/sales.csv)
+  * Sales by Region [sales_by_region.csv](https://github.com/suben-mk/Python-Workshop-DataTH/blob/main/Output/sales_by_region.csv)
+  * Sales by Category [sales_by_category.csv](https://github.com/suben-mk/Python-Workshop-DataTH/blob/main/Output/sales_by_category.csv)
+
