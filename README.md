@@ -67,3 +67,5 @@ Python script และ process ทั้งหมด [Data Engineer Workshop - 
   * Sales by Region [sales_by_region.csv](https://github.com/suben-mk/Python-Workshop-DataTH/blob/main/Output/sales_by_region.csv)
   * Sales by Category [sales_by_category.csv](https://github.com/suben-mk/Python-Workshop-DataTH/blob/main/Output/sales_by_category.csv)
 
+## Note
+ติดตามข่าวสารจาก _**DataTH**_ ได้ที่ [DataTH Blog](https://blog.datath.com/) และทาง Facebook page [Data TH - Data Science ชิลชิล](https://www.facebook.com/datasciencechill)
